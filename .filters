@@ -1,8 +1,8 @@
 {
-  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI" ],
-  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI" ],
+  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI", "ITEMCOPYMETADATA" ],
+  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata" ],
   "description" : [ "Rules" ],
-  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI" ],
+  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata" ],
   "source" : [ "rtim.sandbox.mojixtrack.io" ],
   "type" : [ "EdgeboxRule" ],
   "tenant" : [ ">RTIM" ],
