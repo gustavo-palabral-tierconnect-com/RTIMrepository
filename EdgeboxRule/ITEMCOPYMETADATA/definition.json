@@ -1,0 +1,48 @@
+{
+  "code" : "ITEMCOPYMETADATA",
+  "executeLoop" : false,
+  "runOnReorder" : false,
+  "description" : "",
+  "active" : false,
+  "cronSchedule" : null,
+  "output" : "ThingPropertySetterJSSubscriber",
+  "input" : null,
+  "serialExecution" : false,
+  "scheduledRule" : null,
+  "sortOrder" : 3,
+  "name" : "ItemCopyMetadata",
+  "parameterConditionType" : "CONDITION_TYPE",
+  "conditionType" : "ALWAYS_TRUE",
+  "edgebox" : {
+    "getter" : "getByCodeAndGroup",
+    "innerClass" : "Edgebox",
+    "params" : [ {
+      "getter" : "valueOf",
+      "innerClass" : "String",
+      "params" : "RULESET"
+    }, {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    } ]
+  },
+  "thingType" : {
+    "getter" : "getByCodeAndGroup",
+    "innerClass" : "ThingType",
+    "params" : [ {
+      "getter" : "valueOf",
+      "innerClass" : "String",
+      "params" : "ITEM"
+    }, {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    } ]
+  },
+  "honorLastDetect" : false,
+  "group" : {
+    "getter" : "getByHierarchyCode",
+    "innerClass" : "Group",
+    "params" : "${tenant.hierarchyCode}"
+  }
+}
