@@ -1,8 +1,8 @@
 {
-  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI", "ITEMCOPYMETADATA", "U_ACTIVEITEMS", "ITEMDISPOSITIONCHANGER", "ITEMDISPOSITIONSTOLEN", "SOHSTREAMETL", "SOH_ONFTPIMPORT", "COUNTERS", "SOHCREATORTRIGGERTIME", "SOHCOPYMETADATA_V2", "PRODUCTMEDIATORPUBLISHER" ],
-  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL", "SOHStream_OnFTPImport", "Counters", "SOHCreatorTriggerTime", "SOHCopyMetadata", "ProductMediatorPublisher" ],
-  "description" : [ "Rules", "Reports", "ItemDispositionChanger Rule", "ItemDispositionStolen Rule", "SOHStreamETL Rule", "SOHStream_OnFTPImport Rule", "Counters Rule", "SOHCreatorTriggerTime Rule", "SOHCopyMetadata", "ProductMediatorPublisher Rule" ],
-  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL", "SOHStream_OnFTPImport", "Counters", "SOHCreatorTriggerTime", "SOHCopyMetadata", "ProductMediatorPublisher" ],
+  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI", "ITEMCOPYMETADATA", "U_ACTIVEITEMS", "ITEMDISPOSITIONCHANGER", "ITEMDISPOSITIONSTOLEN", "SOHSTREAMETL", "SOH_ONFTPIMPORT", "COUNTERS", "SOHCREATORTRIGGERTIME", "SOHCOPYMETADATA_V2", "PRODUCTMEDIATORPUBLISHER", "PRODUCTMEDIATOR" ],
+  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL", "SOHStream_OnFTPImport", "Counters", "SOHCreatorTriggerTime", "SOHCopyMetadata", "ProductMediatorPublisher", "ProductMediator" ],
+  "description" : [ "Rules", "Reports", "ItemDispositionChanger Rule", "ItemDispositionStolen Rule", "SOHStreamETL Rule", "SOHStream_OnFTPImport Rule", "Counters Rule", "SOHCreatorTriggerTime Rule", "SOHCopyMetadata", "ProductMediatorPublisher Rule", "ProductMediator Rule" ],
+  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL", "SOHStream_OnFTPImport", "Counters", "SOHCreatorTriggerTime", "SOHCopyMetadata", "ProductMediatorPublisher", "ProductMediator" ],
   "source" : [ "rtim.sandbox.mojixtrack.io" ],
   "type" : [ "EdgeboxRule", "ReportDefinition" ],
   "tenant" : [ ">RTIM" ],
