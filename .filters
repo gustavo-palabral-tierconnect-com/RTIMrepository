@@ -1,8 +1,8 @@
 {
-  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI", "ITEMCOPYMETADATA", "U_ACTIVEITEMS", "ITEMDISPOSITIONCHANGER", "ITEMDISPOSITIONSTOLEN", "SOHSTREAMETL" ],
-  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL" ],
-  "description" : [ "Rules", "Reports", "ItemDispositionChanger Rule", "ItemDispositionStolen Rule", "SOHStreamETL Rule" ],
-  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL" ],
+  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI", "ITEMCOPYMETADATA", "U_ACTIVEITEMS", "ITEMDISPOSITIONCHANGER", "ITEMDISPOSITIONSTOLEN", "SOHSTREAMETL", "SOH_ONFTPIMPORT" ],
+  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL", "SOHStream_OnFTPImport" ],
+  "description" : [ "Rules", "Reports", "ItemDispositionChanger Rule", "ItemDispositionStolen Rule", "SOHStreamETL Rule", "SOHStream_OnFTPImport Rule" ],
+  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen", "SOHStreamETL", "SOHStream_OnFTPImport" ],
   "source" : [ "rtim.sandbox.mojixtrack.io" ],
   "type" : [ "EdgeboxRule", "ReportDefinition" ],
   "tenant" : [ ">RTIM" ],
