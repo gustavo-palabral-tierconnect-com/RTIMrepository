@@ -1,8 +1,8 @@
 {
-  "code" : [ "PRODUCTNORMALIZATION" ],
-  "name" : [ "ProductNormalization" ],
+  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI" ],
+  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI" ],
   "description" : [ "Rules" ],
-  "objectName" : [ "ProductNormalization" ],
+  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI" ],
   "source" : [ "rtim.sandbox.mojixtrack.io" ],
   "type" : [ "EdgeboxRule" ],
   "tenant" : [ ">RTIM" ],
