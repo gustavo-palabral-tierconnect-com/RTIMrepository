@@ -1,0 +1,11 @@
+function condition(thingWrapper, things, messages, logger){
+  var thingTypeCode = thingWrapper.getThingType().getCode();
+
+  //var Retail_SKU = thingWrapper.getUdf("Retail_SKU");
+  if ((thingTypeCode == 'PRODUCTMEDIATOR') || (thingTypeCode.match(/^PRODUCTMEDIATOR_.*$/))) {
+    //logger.warn(" ProductMediator TT TRUE>> "+thingTypeCode);
+    return true;
+  } else {
+    return false;
+  }
+}
