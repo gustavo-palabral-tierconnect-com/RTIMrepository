@@ -1,0 +1,48 @@
+{
+  "code" : "VIZIXEVENTFLAGSPUBLISHER",
+  "executeLoop" : false,
+  "runOnReorder" : false,
+  "description" : null,
+  "active" : false,
+  "cronSchedule" : null,
+  "output" : "ThingPropertySetterJSSubscriber",
+  "input" : null,
+  "serialExecution" : false,
+  "scheduledRule" : null,
+  "sortOrder" : 25,
+  "name" : "ViZixEventFlagsPublisher",
+  "parameterConditionType" : "CONDITION_TYPE",
+  "conditionType" : "ALWAYS_TRUE",
+  "edgebox" : {
+    "getter" : "getByCodeAndGroup",
+    "innerClass" : "Edgebox",
+    "params" : [ {
+      "getter" : "valueOf",
+      "innerClass" : "String",
+      "params" : "RULESET"
+    }, {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    } ]
+  },
+  "thingType" : {
+    "getter" : "getByCodeAndGroup",
+    "innerClass" : "ThingType",
+    "params" : [ {
+      "getter" : "valueOf",
+      "innerClass" : "String",
+      "params" : "vizixEvent"
+    }, {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : ">root"
+    } ]
+  },
+  "honorLastDetect" : false,
+  "group" : {
+    "getter" : "getByHierarchyCode",
+    "innerClass" : "Group",
+    "params" : "${tenant.hierarchyCode}"
+  }
+}
