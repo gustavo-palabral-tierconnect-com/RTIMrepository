@@ -1,8 +1,8 @@
 {
-  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI", "ITEMCOPYMETADATA", "U_ACTIVEITEMS", "ITEMDISPOSITIONCHANGER" ],
-  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger" ],
-  "description" : [ "Rules", "Reports", "ItemDispositionChanger Rule" ],
-  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger" ],
+  "code" : [ "PRODUCTNORMALIZATION", "IS_EPC_A_RTI_GRAI", "ITEMCOPYMETADATA", "U_ACTIVEITEMS", "ITEMDISPOSITIONCHANGER", "ITEMDISPOSITIONSTOLEN" ],
+  "name" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen" ],
+  "description" : [ "Rules", "Reports", "ItemDispositionChanger Rule", "ItemDispositionStolen Rule" ],
+  "objectName" : [ "ProductNormalization", "Is_EPC_a_RTI_GRAI", "ItemCopyMetadata", "Available Items", "ItemDispositionChanger", "ItemDispositionStolen" ],
   "source" : [ "rtim.sandbox.mojixtrack.io" ],
   "type" : [ "EdgeboxRule", "ReportDefinition" ],
   "tenant" : [ ">RTIM" ],
