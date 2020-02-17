@@ -1,0 +1,36 @@
+{
+  "code" : "DISCREPANCYPROCESSPUBLISHER",
+  "executeLoop" : false,
+  "runOnReorder" : false,
+  "description" : null,
+  "active" : false,
+  "cronSchedule" : null,
+  "output" : "com.tierconnect.riot.bridges.rules.actions.RestEndpointSubscriber",
+  "input" : null,
+  "serialExecution" : false,
+  "scheduledRule" : null,
+  "sortOrder" : 31,
+  "name" : "DiscrepancyProcessPublisher",
+  "parameterConditionType" : "CONDITION_TYPE",
+  "conditionType" : "JS",
+  "edgebox" : {
+    "getter" : "getByCodeAndGroup",
+    "innerClass" : "Edgebox",
+    "params" : [ {
+      "getter" : "valueOf",
+      "innerClass" : "String",
+      "params" : "RULESET"
+    }, {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    } ]
+  },
+  "thingType" : null,
+  "honorLastDetect" : false,
+  "group" : {
+    "getter" : "getByHierarchyCode",
+    "innerClass" : "Group",
+    "params" : "${tenant.hierarchyCode}"
+  }
+}
