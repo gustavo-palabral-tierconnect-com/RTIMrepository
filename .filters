@@ -1,0 +1,13 @@
+{
+  "code" : [ "PRODUCTNORMALIZATION" ],
+  "name" : [ "ProductNormalization" ],
+  "description" : [ "Rules" ],
+  "objectName" : [ "ProductNormalization" ],
+  "source" : [ "rtim.sandbox.mojixtrack.io" ],
+  "type" : [ "EdgeboxRule" ],
+  "tenant" : [ ">RTIM" ],
+  "tags" : [ "Rules" ],
+  "objectType" : [ "" ],
+  "committer" : [ "root" ],
+  "author" : [ "RTIMroot" ]
+}
