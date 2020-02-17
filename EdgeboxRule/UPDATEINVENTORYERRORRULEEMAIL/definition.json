@@ -1,0 +1,36 @@
+{
+  "code" : "UPDATEINVENTORYERRORRULEEMAIL",
+  "executeLoop" : false,
+  "runOnReorder" : false,
+  "description" : "Action for true condition on UpdateInventoryErrorRule",
+  "active" : false,
+  "cronSchedule" : null,
+  "output" : "EmailSubscriber",
+  "input" : null,
+  "serialExecution" : false,
+  "scheduledRule" : null,
+  "sortOrder" : 35,
+  "name" : "UpdateInventoryErrorRuleEMAIL",
+  "parameterConditionType" : "CONDITION_TYPE",
+  "conditionType" : "JS",
+  "edgebox" : {
+    "getter" : "getByCodeAndGroup",
+    "innerClass" : "Edgebox",
+    "params" : [ {
+      "getter" : "valueOf",
+      "innerClass" : "String",
+      "params" : "RULESET"
+    }, {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    } ]
+  },
+  "thingType" : null,
+  "honorLastDetect" : false,
+  "group" : {
+    "getter" : "getByHierarchyCode",
+    "innerClass" : "Group",
+    "params" : "${tenant.hierarchyCode}"
+  }
+}
