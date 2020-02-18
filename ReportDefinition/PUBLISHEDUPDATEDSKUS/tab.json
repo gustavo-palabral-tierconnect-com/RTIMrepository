@@ -1,0 +1,32 @@
+{
+  "COUNT" : {
+    "skinTabActiveBgColor" : "#4ABDFF",
+    "lastModificationDate" : "newDate",
+    "code" : "COUNT",
+    "skinTabTextColor" : "",
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "skinTabBgColor" : "#000000",
+    "name" : "Count",
+    "icon" : "tab-icon-tenant-warehouse",
+    "displayOrder" : 1,
+    "skinTabActiveTextColor" : "#000000",
+    "creationDate" : "newDate",
+    "group" : {
+      "getter" : "getByHierarchyCode",
+      "innerClass" : "Group",
+      "params" : "${tenant.hierarchyCode}"
+    }
+  }
+}
