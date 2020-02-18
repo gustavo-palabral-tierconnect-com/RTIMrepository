@@ -1,0 +1,150 @@
+{
+  "Thing Type" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MAPRTIHISTORICALPLAYBACK"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "thingType.id",
+    "editable" : false,
+    "displayOrder" : 2,
+    "label" : "Thing Type",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : {
+      "innerMethod" : "getThingTypeId",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ITEM"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "operator" : "="
+  },
+  "Thing Facility Map" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MAPRTIHISTORICALPLAYBACK"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "visibility.facilityMap",
+    "editable" : false,
+    "displayOrder" : 4,
+    "label" : "Thing Facility Map",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : "true",
+    "operator" : "="
+  },
+  "EPC" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MAPRTIHISTORICALPLAYBACK"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "serial",
+    "editable" : true,
+    "displayOrder" : 5,
+    "label" : "EPC",
+    "thingType" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "ThingType",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ITEM"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "thingTypeField" : null,
+    "fieldType" : 1,
+    "value" : "AE1000000000000000371263",
+    "operator" : "="
+  },
+  "Thing Owner Group" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MAPRTIHISTORICALPLAYBACK"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "visibility.thingOwnerGroup",
+    "editable" : false,
+    "displayOrder" : 3,
+    "label" : "Thing Owner Group",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : "false",
+    "operator" : "="
+  },
+  "History" : {
+    "autoComplete" : false,
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "MAPRTIHISTORICALPLAYBACK"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "relativeDate",
+    "editable" : true,
+    "displayOrder" : 1,
+    "label" : "History",
+    "thingType" : null,
+    "thingTypeField" : null,
+    "fieldType" : 0,
+    "value" : "TODAY",
+    "operator" : ""
+  }
+}
