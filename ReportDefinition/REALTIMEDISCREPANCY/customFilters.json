@@ -1,0 +1,24 @@
+{
+  "Discrepancy" : {
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "REALTIMEDISCREPANCY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "propertyName" : "Discrepancy",
+    "editable" : false,
+    "dataTypeId" : 1,
+    "displayOrder" : 1,
+    "label" : "Discrepancy",
+    "value" : "Yes",
+    "operator" : "="
+  }
+}
