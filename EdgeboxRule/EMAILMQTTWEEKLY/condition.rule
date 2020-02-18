@@ -1,0 +1,3 @@
+function condition(thingWrapper,things,messages,logger,cacheManagerUtil){
+	return false;
+}
