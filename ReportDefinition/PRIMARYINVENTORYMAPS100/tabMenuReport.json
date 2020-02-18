@@ -1,0 +1,35 @@
+{
+  "AVAILABLEINVENTORY|PRIMARYINVENTORYMAPS100" : {
+    "appTabMenu" : {
+      "getter" : "getByCodeAndAppTab",
+      "innerClass" : "AppTabMenu",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "AVAILABLEINVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "PRIMARYINVENTORYMAPS100"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "chartView" : null
+  }
+}
