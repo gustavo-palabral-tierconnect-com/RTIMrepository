@@ -1,0 +1,35 @@
+{
+  "ANALYTICS|DETAILEDSKUDISCREPANCY" : {
+    "appTabMenu" : {
+      "getter" : "getByCodeAndAppTab",
+      "innerClass" : "AppTabMenu",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "ANALYTICS"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "COUNT"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "reportDefinition" : {
+      "getter" : "getByCodeAndHierarchyCode",
+      "innerClass" : "ReportDefinition",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "DETAILEDSKUDISCREPANCY"
+      }, {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "chartView" : null
+  }
+}
