@@ -1,0 +1,36 @@
+{
+  "DISPOSITION" : {
+    "appTab" : {
+      "getter" : "getByCodeAndGroup",
+      "innerClass" : "AppTab",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "INVENTORY"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : "${tenant.hierarchyCode}"
+      } ]
+    },
+    "lastModificationDate" : "newDate",
+    "code" : "DISPOSITION",
+    "createdByUser" : {
+      "getter" : "getByUsername",
+      "innerClass" : "User",
+      "params" : [ {
+        "getter" : "valueOf",
+        "innerClass" : "String",
+        "params" : "root"
+      }, {
+        "getter" : "getByHierarchyCode",
+        "innerClass" : "Group",
+        "params" : ">root"
+      } ]
+    },
+    "name" : "Disposition",
+    "icon" : "tab-icon-tenant-inventory",
+    "displayOrder" : 3,
+    "creationDate" : "newDate"
+  }
+}
